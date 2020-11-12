@@ -1,0 +1,9 @@
+.row-funds {
+  display: flex;
+}
+
+.row-fund {
+  object-fit: contain;
+  height: 200px;
+  margin-left: 2px;
+}

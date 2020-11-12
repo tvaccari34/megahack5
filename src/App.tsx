@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Row from './components/Row/Row';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Hello Orama - A new way to invest your money</h2>
+      <Row title="Fundos que sao a sua cara" fetchUrl='suggestion' />
+      <Row title="Fundos de investimento com o seu perfil" fetchUrl='profileFunds' />
+      <Row title="Fundos em alta" fetchUrl='trends' />
     </div>
   );
 }
