@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import GlobalStyles from './styles/global';
 import { Main } from './styles';
@@ -27,7 +28,7 @@ function App() {
                     SUA CONTA
                   </li>
                   <li>
-                    ABRA A SUA CONTA
+                    <button>ABRA A SUA CONTA</button>
                   </li>
                 </ul>
               </nav>

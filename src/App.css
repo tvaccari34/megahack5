@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #292929;
+  font-family: "Quicksand", "sans-serif";
 }
 
 .app-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: white;
 }
 
@@ -14,13 +19,43 @@
   background-color: white;
 }
 
-.app-header nav ul {
-  display: flex;
-  list-style: none;
-  align-items: flex-end;
+.app-header div {
+  background-color: white;
+  width: 650px;
 }
 
-.app-header nav ul li {
+.app-header button {
+  display: flex;
+  width: 200px;
+  height: 48px;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #639d31;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.app-header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header div nav ul {
+  display: flex;
+  list-style: none;
+  max-width: 640px;
+  justify-content: space-between;
+  margin-right: 24px;
+  background-color: white;
+}
+
+.app-header div nav ul li {
+  background-color: white;
 }
 
 .app-header img {
