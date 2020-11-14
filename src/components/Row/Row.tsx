@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import InvestimentFundsRepository from '../../modules/Funds/Providers/Repositories/Mocks/MockFundRepositories';
+import Collapse from '@kunukn/react-collapse'
 import "./Row.css";
+
 
 interface FundProps {
     title: string;
     fetchUrl: string;
+    isLargeRow?: boolean;
 }
 
 interface IFunds {
@@ -13,7 +16,7 @@ interface IFunds {
     image: string;
 }
 
-const Row: React.FC<FundProps> = ({ title, fetchUrl }: FundProps) => {
+const Row: React.FC<FundProps> = ({ title, fetchUrl, isLargeRow }: FundProps) => {
 
     const [funds, setFunds] = useState<IFunds[]>([]);
 
@@ -36,15 +39,26 @@ const Row: React.FC<FundProps> = ({ title, fetchUrl }: FundProps) => {
     return (
         <div className="row">
             <h2>{title}</h2>
-            
-            <div className="row-funds">
-                {funds.map(fund => (
-                    <img key={fund.image} className="row-fund" src={fund.image} alt={fund.title}/>
-                ))}
-            </div>
-            
 
-            {fetchUrl}
+            <div className='row-funds'>
+                {funds.map(fund => (
+                    <div>
+                        <div>
+                            <img key={fund.image} className={`row-fund ${isLargeRow && 'row-fund-large'}`} src={fund.image} alt={fund.title}/>
+                            <div className='fund-title'>{fund.title}</div>
+                            <div>
+                                <img key={fund.image} className={`row-fund row-fund-details ${isLargeRow && 'row-fund-large'}`} src={fund.image} alt={fund.title}/>
+                                <div className='row-fund row-fund-details fund-title-details'>
+                                    {fund.title}
+                                    {fund.percentage}
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                ))}
+                
+            </div>
         </div>
     );
 };

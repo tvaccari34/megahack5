@@ -66,11 +66,11 @@ class FundRepositories {
                     { title: 'Trígono Delphos Income FIC FIA ', percentage: 25, image: image17},
                     { title: 'E2M Arb FIM', percentage: 23.9, image: image18},
                     { title: 'Vista Multiestratégia FIC FIM', percentage: 22.88, image: image19},
-                    { title: 'IP Participações IPG FIC FIA BDR Nível I', percentage: 18.2, image: image20},
-                    { title: 'GEO Empresas Globais em Dólares FIC FIA IE', percentage: 350, image: image21},
-                    { title: 'Real Investor FIM', percentage: 57, image: image22},
-                    { title: 'Dahlia Total Return FIC FIM', percentage: 17.44, image: image23},
-                    { title: 'Quantitas Galápagos FIM', percentage: 16.72, image: image24},
+                    // { title: 'IP Participações IPG FIC FIA BDR Nível I', percentage: 18.2, image: image20},
+                    // { title: 'GEO Empresas Globais em Dólares FIC FIA IE', percentage: 350, image: image21},
+                    // { title: 'Real Investor FIM', percentage: 57, image: image22},
+                    // { title: 'Dahlia Total Return FIC FIM', percentage: 17.44, image: image23},
+                    // { title: 'Quantitas Galápagos FIM', percentage: 16.72, image: image24},
                 ];
             
             break;

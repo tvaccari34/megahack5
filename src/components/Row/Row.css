@@ -1,9 +1,50 @@
 .row-funds {
   display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  scrollbar-width: none;
+}
+
+.row-funds::-webkit-scrollbar {
+  display: none;
 }
 
 .row-fund {
   object-fit: contain;
-  height: 200px;
-  margin-left: 2px;
+  max-height: 200px;
+  margin-left: 8px;
+  transition: transform 450ms;
+}
+
+.row-fund-details {
+  display: none;
+}
+
+.row-fund:hover {
+  opacity: 0.7;
+  /* transform: scale(1.2); */
+}
+
+.row-fund-details:hover {
+  display: unset;
+  transform: scale(1.2);
+}
+
+.row-fund-large {
+  max-height: 240px;
+}
+
+.row-fund-large:hover {
+  transform: scale(1.16);
+}
+
+.fund-title {
+  display: flex;
+  margin-left: 8px;
+}
+
+.collapse-css-transition {
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
 }
