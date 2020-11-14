@@ -36,36 +36,36 @@ class FundRepositories {
         switch (profileType) {
             case 'suggestion':
                 investimentFund = [
-                    { title: 'Órama Ouro FIM', percentage: 23, image: image1},
-                    { title: 'Órama DI FIRF Simples LP', percentage: 89, image: image2},
-                    { title: 'Órama Inflação IPCA FIRF LP', percentage: 135, image: image3},
-                    { title: 'Órama Bolsa Mid Large-Small Cap FIA', percentage: -9.05, image: image4},
-                    { title: 'Órama Gávea Macro FIC FIM', percentage: 350, image: image5},
-                    { title: 'Órama Debêntures Incentivadas FIM CP', percentage: 57, image: image6},
-                    { title: 'Órama BTG Pactual Hedge Plus FIC FIM', percentage: -1.57, image: image7},
-                    { title: 'Órama Bolsa Mid Large-Small Allure Cap FIA', percentage: -10.05, image: image8},
+                    { title: 'Órama Ouro FIM', percentage: 23, image: image1, details: ''},
+                    { title: 'Órama DI FIRF Simples LP', percentage: 89, image: image2, details: ''},
+                    { title: 'Órama Inflação IPCA FIRF LP', percentage: 135, image: image3, details: ''},
+                    { title: 'Órama Bolsa Mid Large-Small Cap FIA', percentage: -9.05, image: image4, details: ''},
+                    { title: 'Órama Gávea Macro FIC FIM', percentage: 350, image: image5, details: ''},
+                    { title: 'Órama Debêntures Incentivadas FIM CP', percentage: 57, image: image6, details: ''},
+                    { title: 'Órama BTG Pactual Hedge Plus FIC FIM', percentage: -1.57, image: image7, details: ''},
+                    { title: 'Órama Bolsa Mid Large-Small Allure Cap FIA', percentage: -10.05, image: image8, details: ''},
                 ];
                 break;
 
             case 'profileFunds':
                 investimentFund = [
-                    { title: 'Invexa Inter Ibovespa FIA', percentage: 73.23, image: image9},
-                    { title: 'Western Asset FIA BDR Nível I', percentage: 72.86, image: image10},
-                    { title: 'Trivèlla 4 Estações FIM', percentage: 63.87, image: image11},
-                    { title: 'PIMCO Income Dólar FIC FIM IE', percentage: 47, image: image12},
-                    { title: 'Occam FI Cambial', percentage: 43, image: image13},
-                    { title: 'BV Votorantim Dólar FIC FI Cambial', percentage: 42, image: image14},
-                    { title: 'Vinci Internacional FIC FIM IE', percentage: 40.55, image: image15},
-                    { title: 'Focus FIA BDR Nivel I', percentage: 33.94, image: image16},
+                    { title: 'Invexa Inter Ibovespa FIA', percentage: 73.23, image: image9, details: ''},
+                    { title: 'Western Asset FIA BDR Nível I', percentage: 72.86, image: image10, details: ''},
+                    { title: 'Trivèlla 4 Estações FIM', percentage: 63.87, image: image11, details: ''},
+                    { title: 'PIMCO Income Dólar FIC FIM IE', percentage: 47, image: image12, details: ''},
+                    { title: 'Occam FI Cambial', percentage: 43, image: image13, details: ''},
+                    { title: 'BV Votorantim Dólar FIC FI Cambial', percentage: 42, image: image14, details: ''},
+                    { title: 'Vinci Internacional FIC FIM IE', percentage: 40.55, image: image15, details: ''},
+                    { title: 'Focus FIA BDR Nivel I', percentage: 33.94, image: image16, details: ''},
                 ];
             
             break;
 
             case 'trends':
                 investimentFund = [
-                    { title: 'Trígono Delphos Income FIC FIA ', percentage: 25, image: image17},
-                    { title: 'E2M Arb FIM', percentage: 23.9, image: image18},
-                    { title: 'Vista Multiestratégia FIC FIM', percentage: 22.88, image: image19},
+                    { title: 'Trígono Delphos Income FIC FIA ', percentage: 25, image: image17, details: ''},
+                    { title: 'E2M Arb FIM', percentage: 23.9, image: image18, details: ''},
+                    { title: 'Vista Multiestratégia FIC FIM', percentage: 22.88, image: image19, details: ''},
                     // { title: 'IP Participações IPG FIC FIA BDR Nível I', percentage: 18.2, image: image20},
                     // { title: 'GEO Empresas Globais em Dólares FIC FIA IE', percentage: 350, image: image21},
                     // { title: 'Real Investor FIM', percentage: 57, image: image22},

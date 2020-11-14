@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import InvestimentFundsRepository from '../../modules/Funds/Providers/Repositories/Mocks/MockFundRepositories';
-import Collapse from '@kunukn/react-collapse'
+import Accordion from 'react-bootstrap/Accordion'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 import "./Row.css";
 
 
@@ -14,6 +16,7 @@ interface IFunds {
     title: string,
     percentage: number;
     image: string;
+    details: string;
 }
 
 const Row: React.FC<FundProps> = ({ title, fetchUrl, isLargeRow }: FundProps) => {
@@ -46,18 +49,10 @@ const Row: React.FC<FundProps> = ({ title, fetchUrl, isLargeRow }: FundProps) =>
                         <div>
                             <img key={fund.image} className={`row-fund ${isLargeRow && 'row-fund-large'}`} src={fund.image} alt={fund.title}/>
                             <div className='fund-title'>{fund.title}</div>
-                            <div>
-                                <img key={fund.image} className={`row-fund row-fund-details ${isLargeRow && 'row-fund-large'}`} src={fund.image} alt={fund.title}/>
-                                <div className='row-fund row-fund-details fund-title-details'>
-                                    {fund.title}
-                                    {fund.percentage}
-                                </div>
-                            </div>
+                            <div className='fund-title'>{fund.details}</div>
                         </div>
-                        
                     </div>
                 ))}
-                
             </div>
         </div>
     );
