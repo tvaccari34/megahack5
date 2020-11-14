@@ -3,4 +3,5 @@ export default interface IInvestimentFundsDTO {
     percentage: number;
     image: string;
     details: string;
+    fundImage: string;
 }

@@ -19,12 +19,6 @@ function App() {
               <nav>
                 <ul>
                   <li>
-                    Quero ir além
-                  </li>
-                  <li>
-                    Porque a Órama?
-                  </li>
-                  <li>
                     SUA CONTA
                   </li>
                   <li>
