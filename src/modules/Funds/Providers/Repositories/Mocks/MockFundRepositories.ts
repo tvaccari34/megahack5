@@ -68,9 +68,9 @@ class FundRepositories {
 
             case 'trends':
                 investimentFund = [
-                    { title: 'Trígono Delphos Income FIC FIA ', percentage: 25, image: image17, details: '', fundImage: ''},
-                    { title: 'E2M Arb FIM', percentage: 23.9, image: image18, details: '', fundImage: ''},
-                    { title: 'Vista Multiestratégia FIC FIM', percentage: 22.88, image: image19, details: '', fundImage: ''},
+                    { title: 'Órama Ouro FIM', percentage: 23, image: image1, details: '', fundImage: fundo2},
+                    { title: 'Magazine Luiza', percentage: 73.23, image: image91, details: '', fundImage: fundo1},
+                    { title: 'Vista Multiestratégia FIC FIM', percentage: 22.88, image: image19, details: '', fundImage: fundo1},
                     // { title: 'IP Participações IPG FIC FIA BDR Nível I', percentage: 18.2, image: image20},
                     // { title: 'GEO Empresas Globais em Dólares FIC FIA IE', percentage: 350, image: image21},
                     // { title: 'Real Investor FIM', percentage: 57, image: image22},
