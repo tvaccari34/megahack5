@@ -46,6 +46,7 @@
 .fund-title {
   display: flex;
   margin-left: 8px;
+  color: white;
 }
 
 .collapse-css-transition {

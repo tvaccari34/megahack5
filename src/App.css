@@ -2,15 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #292929;
 }
 
 .app-header {
   display: flex;
-  background-color: whitesmoke;
+  background-color: white;
+}
+
+.app-header nav {
+  background-color: white;
+}
+
+.app-header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+}
+
+.app-header nav ul li {
 }
 
 .app-header img {
-  margin: 8px 12px 8px;
+  margin: 8px 24px 8px;
+  background-color: white;
 }
 
 .row {

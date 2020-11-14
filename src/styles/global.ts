@@ -10,5 +10,8 @@ export default createGlobalStyle`
 
 h2 {
     padding-left: 20px;
+    margin-left: 8px;
+    color: whitesmoke;
 }
 `;
+

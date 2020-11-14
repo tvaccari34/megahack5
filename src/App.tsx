@@ -15,20 +15,22 @@ function App() {
           <div className="app-header">
             <img src={logo} alt="Logo Twitter" />
             <div>
-              <ul>
-                <li>
-                  Quero ir além
-                </li>
-                <li>
-                  Porque a Órama?
-                </li>
-                <li>
-                  SUA CONTA
-                </li>
-                <li>
-                  ABRA A SUA CONTA
-                </li>
-              </ul>
+              <nav>
+                <ul>
+                  <li>
+                    Quero ir além
+                  </li>
+                  <li>
+                    Porque a Órama?
+                  </li>
+                  <li>
+                    SUA CONTA
+                  </li>
+                  <li>
+                    ABRA A SUA CONTA
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
           <Row title="Fundos que são a sua cara" fetchUrl='suggestion'/>
