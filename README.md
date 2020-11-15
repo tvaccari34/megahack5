@@ -25,7 +25,7 @@ O Projeto foi desenvolvido com as seguintes tecnologias
 
 👤 **Tiago Vaccari**
 
-* Github: [@TiagoVaccaro](https://github.com/tvaccari34)
+* Github: [@TiagoVaccari](https://github.com/tvaccari34)
 
 
 
