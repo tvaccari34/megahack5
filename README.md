@@ -21,7 +21,7 @@ O Projeto foi desenvolvido com as seguintes tecnologias
 
 👤 **Leonardo Ortolan**
 
-* Github: [@LeonardoOrtolan]()
+* Github: [@LeonardoOrtolan](https://www.linkedin.com/in/leonardo-ortolan/)
 
 👤 **Tiago Vaccari**
 
