@@ -13,7 +13,7 @@ O Projeto foi desenvolvido com as seguintes tecnologias
 
 👤 **Rodolfo Azevedo**
 
-* Github: [@RodolfoAzevedo](https://https://github.com/rof20004)
+* Github: [@RodolfoAzevedo](https://github.com/rof20004)
 
 👤 **Mariana Tomaz**
 
