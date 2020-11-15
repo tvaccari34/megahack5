@@ -1,16 +1,16 @@
 import InvestimentFundsRepository from '../../../dtos/IInvestmentFundsDTO';
-import image1 from '../../../../../assets/image9.jpg';
-import image2 from '../../../../../assets/image2.jpg';
-import image3 from '../../../../../assets/image3.jpg';
+import image1 from '../../../../../assets/image1.png';
+import image2 from '../../../../../assets/image2.png';
+import image3 from '../../../../../assets/image3.png';
 import image4 from '../../../../../assets/image4.jpg';
 import image5 from '../../../../../assets/image5.jpg';
 import image6 from '../../../../../assets/image6.jpg';
 import image7 from '../../../../../assets/image7.jpg';
 import image8 from '../../../../../assets/image8.jpg';
-import image91 from '../../../../../assets/magalu.png';
-import image10 from '../../../../../assets/image10.jpg';
-import image11 from '../../../../../assets/image11.jpg';
-import image12 from '../../../../../assets/image12.jpg';
+import image91 from '../../../../../assets/image91.png';
+import image10 from '../../../../../assets/image10.png';
+import image11 from '../../../../../assets/image11.png';
+import image12 from '../../../../../assets/image12.png';
 import image13 from '../../../../../assets/image13.jpg';
 import image14 from '../../../../../assets/image14.jpg';
 import image15 from '../../../../../assets/image15.jpg';
@@ -42,8 +42,8 @@ class FundRepositories {
             case 'suggestion':
                 investimentFund = [
                     { title: 'Órama Ouro FIM', percentage: 23, image: image1, details: '', fundImage: ''},
-                    { title: 'Órama DI FIRF Simples LP', percentage: 89, image: image2, details: '', fundImage: ''},
-                    { title: 'Órama Inflação IPCA FIRF LP', percentage: 135, image: image3, details: '', fundImage: ''},
+                    { title: 'Tesouro Direto', percentage: 89, image: image2, details: '', fundImage: ''},
+                    { title: 'OCCAM Cambial', percentage: 135, image: image3, details: '', fundImage: ''},
                     { title: 'Órama Bolsa Mid Large-Small Cap FIA', percentage: -9.05, image: image4, details: '', fundImage: ''},
                     { title: 'Órama Gávea Macro FIC FIM', percentage: 350, image: image5, details: '', fundImage: ''},
                     { title: 'Órama Debêntures Incentivadas FIM CP', percentage: 57, image: image6, details: '', fundImage: ''},
@@ -55,9 +55,9 @@ class FundRepositories {
             case 'profileFunds':
                 investimentFund = [
                     { title: 'Magazine Luiza', percentage: 73.23, image: image91, details: '', fundImage: fundo1},
-                    { title: 'Western Asset FIA BDR Nível I', percentage: 72.86, image: image10, details: '', fundImage: ''},
-                    { title: 'Trivèlla 4 Estações FIM', percentage: 63.87, image: image11, details: '', fundImage: ''},
-                    { title: 'PIMCO Income Dólar FIC FIM IE', percentage: 47, image: image12, details: '', fundImage: ''},
+                    { title: 'Natura', percentage: 72.86, image: image10, details: '', fundImage: ''},
+                    { title: 'Petrobras', percentage: 63.87, image: image11, details: '', fundImage: ''},
+                    { title: 'Vale', percentage: 47, image: image12, details: '', fundImage: ''},
                     { title: 'Occam FI Cambial', percentage: 43, image: image13, details: '', fundImage: ''},
                     { title: 'BV Votorantim Dólar FIC FI Cambial', percentage: 42, image: image14, details: '', fundImage: ''},
                     { title: 'Vinci Internacional FIC FIM IE', percentage: 40.55, image: image15, details: '', fundImage: ''},
@@ -70,7 +70,7 @@ class FundRepositories {
                 investimentFund = [
                     { title: 'Órama Ouro FIM', percentage: 23, image: image1, details: '', fundImage: fundo2},
                     { title: 'Magazine Luiza', percentage: 73.23, image: image91, details: '', fundImage: fundo1},
-                    { title: 'Vista Multiestratégia FIC FIM', percentage: 22.88, image: image19, details: '', fundImage: fundo1},
+                    { title: 'Tesouro Direto', percentage: 22.88, image: image2, details: '', fundImage: fundo1},
                     // { title: 'IP Participações IPG FIC FIA BDR Nível I', percentage: 18.2, image: image20},
                     // { title: 'GEO Empresas Globais em Dólares FIC FIA IE', percentage: 350, image: image21},
                     // { title: 'Real Investor FIM', percentage: 57, image: image22},
