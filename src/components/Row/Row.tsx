@@ -56,7 +56,8 @@ const Row: React.FC<FundProps> = ({ title, fetchUrl, isLargeRow }: FundProps) =>
                         <div>
                             <button onClick={onOpenModal}><img key={fund.image} className={`row-fund ${isLargeRow && 'row-fund-large'}`} src={fund.image} alt={fund.title}/></button>
                             <Modal open={open} onClose={onCloseModal} center>
-                                <img key={fund.fundImage} src={fund.fundImage} alt={fund.title}/>
+                                <a href="https://www.orama.com.br/" target="_self"><img key={fund.fundImage} src={fund.fundImage} alt={fund.title}/></a>
+                                
                             </Modal>
                             
                             <div className='fund-title'>{fund.title}</div>
